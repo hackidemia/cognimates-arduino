@@ -43,13 +43,13 @@ Getting Started
 
 3. Copy (or symlink) the `library/WebUSB` directory from this repository into the `libraries` folder in your sketchbooks directory. Here is a <a href="https://drive.google.com/drive/folders/1TsQmEgvsSLchIRxgtch64fpfYczd_pWB?usp=sharing" target="_blank"> link to the library </a> to make it easier. Images showing steps below after clicking on the link to the library: 
 
-  * a. Download the folder. <br><img src="./instruction_images/download-webusb.png" height=300px style="text-align:center;">
+  * Download the folder. <br><img src="./instruction_images/download-webusb.png" height=300px style="text-align:center;">
 
-  * b. Find the folder in your computer's files and open the zip file. This is on a Mac in the Downloads folder. Copy the entire "WebUSB" folder. <br><img src="./instruction_images/open-zip.png" height=300px style="text-align:center;">
+  * Find the folder in your computer's files and open the zip file. This is on a Mac in the Downloads folder. Copy the entire "WebUSB" folder. <br><img src="./instruction_images/open-zip.png" height=300px style="text-align:center;">
 
-  * Find your "sketchbooks directory". It is by default named "Arduino" and it's the folder that holds all of your sketches and where your Arduino IDE automatically saves to. Open it and find the folder named "libraries". <br> <img src="./instruction_images/libraries-folder.png">
+  * Find your "sketchbooks directory". It is by default named "Arduino" and it's the folder that holds all of your sketches and where your Arduino IDE automatically saves to. Open it and find the folder named "libraries". <br> <img src="./instruction_images/libraries-folder.png" height=300px style="text-align:center;">
 
-  * Now, open libraries and paste in the folder you copied. You should now see WebUSB inside your libraries folder. <br> <img src="./instruction_images/web-usb.png">
+  * Now, open libraries and paste in the folder you copied. You should now see WebUSB inside your libraries folder. <br> <img src="./instruction_images/web-usb.png" height=300px style="text-align:center;">
 
 4. Launch the Arduino IDE. You should see "WebUSB" as an option under "Sketch > Include Library".
 
