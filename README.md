@@ -53,7 +53,7 @@ Getting Started
 
 4. Launch the Arduino IDE. You should see "WebUSB" as an option under "Sketch > Include Library".
 
-5. Load up `sketch/cognimates.ino` and program it to your device.
+5. Download `sketch/cognimates.ino` <a href="https://drive.google.com/uc?export=download&id=1mmxHcXB8tpqtn-FFhOdGpaA19qgJTsuI">here</a>, open it in the Arduino IDE, and program it to your device.
 
 6. Go to https://codelab.cognimates.me, open the Arduino extension, and start playing! 
 
