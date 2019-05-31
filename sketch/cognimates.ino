@@ -8,7 +8,7 @@
  * The URL here provides a hint to the browser about what page the user should
  * navigate to to interact with the device.
  */
-WebUSB WebUSBWebSerial(1 /* https:// */, "codelab.cognimates.me");
+WebUSB WebUSBWebSerial(1 /* https:// */, "webusb.github.io/arduino/demos/rgb");
 
 #define WebSerial WebUSBWebSerial
 
@@ -62,7 +62,7 @@ void loop() {
       } else if(message[0] == 3){
           pinMode(message[1], INPUT);
           Serial.println("inside digital read");
-          let digital = digitalRead(message[1]);
+          int digital = digitalRead(message[1]);
           int val;
           if(digital == HIGH){
             val = 1;
