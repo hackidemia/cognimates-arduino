@@ -8,7 +8,7 @@
  * The URL here provides a hint to the browser about what page the user should
  * navigate to to interact with the device.
  */
-WebUSB WebUSBWebSerial(1 /* https:// */, "webusb.github.io/arduino/demos/rgb");
+WebUSB WebUSBWebSerial(1 /* https:// */, "codelab.cognimates.me");
 
 #define WebSerial WebUSBWebSerial
 
