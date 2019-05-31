@@ -41,15 +41,15 @@ Getting Started
   
   **Warning:** Windows requires USB 2.1 devices to present a Binary Object Store (BOS) descriptor when they are enumerated. The code to support this is added by including the "WebUSB" library in your sketch. If you do not include this library after making this change to the SDK then Windows will no longer be able to recognize your device and you will not be able to upload new sketches to it.
 
-3. Copy (or symlink) the `library/WebUSB` directory from this repository into the `libraries` folder in your sketchbooks directory. Here is a <a href="https://drive.google.com/drive/folders/1TsQmEgvsSLchIRxgtch64fpfYczd_pWB?usp=sharing" target="_blank"> link to the library </a> to make it easier. Images showing steps below after clicking on the link to the library: 
+3. Copy (or symlink) the `library/WebUSB` directory from this repository into the `libraries` folder in your sketchbooks directory. Here is a <a href="https://drive.google.com/drive/folders/1TsQmEgvsSLchIRxgtch64fpfYczd_pWB?usp=sharing" target="_blank"> link to the library </a> to make it easier. The images below show the steps you take to do this after clicking on the link to the library: 
 
-  * Download the folder. <br><img src="./instruction_images/download-webusb.png" height=300px style="text-align:center;">
+  * Download the folder. It will download in the form of a zip file. <br><img src="./instruction_images/download-webusb.png" height=300px style="text-align:center;">
 
-  * Find the folder in your computer's files and open the zip file. This is on a Mac in the Downloads folder. Copy the entire "WebUSB" folder. <br><img src="./instruction_images/open-zip.png" height=300px style="text-align:center;">
+  * Find the zip folder in your computer's files and open the zip file. In this example, the zip folder downloaded into the Mac's "Downloads" folder. Copy the entire "WebUSB" folder. <br><img src="./instruction_images/open-zip.png" height=300px style="text-align:center;">
 
-  * Find your "sketchbooks directory". It is by default named "Arduino" and it's the folder that holds all of your sketches and where your Arduino IDE automatically saves to. Open it and find the folder named "libraries". <br> <img src="./instruction_images/libraries-folder.png" height=300px style="text-align:center;">
+  * Find your "sketchbooks directory", which is the folder that holds all of your sketches. Your Arduino IDE automatically saves sketches to this folder, and it also holds libraries. It is by default named "Arduino". Open it and find the folder named "libraries". <br> <img src="./instruction_images/libraries-folder.png" height=300px style="text-align:center;">
 
-  * Now, open libraries and paste in the folder you copied. You should now see WebUSB inside your libraries folder. <br> <img src="./instruction_images/web-usb.png" height=300px style="text-align:center;">
+  * Now, open libraries and paste in the WebUSB folder you copied. You should now see WebUSB inside your libraries folder. <br> <img src="./instruction_images/web-usb.png" height=300px style="text-align:center;">
 
 4. Launch the Arduino IDE. You should see "WebUSB" as an option under "Sketch > Include Library".
 
