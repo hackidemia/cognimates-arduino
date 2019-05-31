@@ -41,7 +41,7 @@ Getting Started
   
   **Warning:** Windows requires USB 2.1 devices to present a Binary Object Store (BOS) descriptor when they are enumerated. The code to support this is added by including the "WebUSB" library in your sketch. If you do not include this library after making this change to the SDK then Windows will no longer be able to recognize your device and you will not be able to upload new sketches to it.
 
-3. Copy (or symlink) the `library/WebUSB` directory from this repository into the `libraries` folder in your sketchbooks directory. Here is a <a href="https://drive.google.com/uc?export=download&id=1TsQmEgvsSLchIRxgtch64fpfYczd_pWB"> download link</a> of the library folder for your convenience. 
+3. Copy (or symlink) the `library/WebUSB` directory from this repository into the `libraries` folder in your sketchbooks directory. Here is a <a href="https://drive.google.com/drive/folders/1TsQmEgvsSLchIRxgtch64fpfYczd_pWB?usp=sharing"> link to the library </a> to make it easier. Images showing steps below: 
 
 4. Launch the Arduino IDE. You should see "WebUSB" as an option under "Sketch > Include Library".
 
