@@ -61,3 +61,4 @@ Getting Started
  1. Make sure you are using Google Chrome - other browsers do not have full support or any support for WebUSB yet. 
  2. Double check that you are using one of the compatible models - the Arduino UNO does not have the hardware necessary to communicate through WebUSB, unfortunately. 
  3. Double check that you have made the correct alterations to your SDK installation and that you've uploaded the sketch correctly. 
+ 4. After making changes to the SDK, you need to completely close/quit Arduino and open it again. 
